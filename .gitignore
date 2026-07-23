@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Промежуточные данные / тензоры (тяжёлые, генерируются пайплайном)
+*.pkl
+data.pkl
+X_train_tensor.pth
+X_val_tensor.pth
+X_test_tensor.pth
+y_train_tensor.pth
+y_val_tensor.pth
+y_test_tensor.pth
+
+# Сырые датасеты (загружаются отдельно через kagglehub)
+data/
+datasets/
+
+# ОС / IDE
+.DS_Store
+.idea/
+.vscode/

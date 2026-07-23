@@ -1,0 +1,16 @@
+numpy
+pandas
+opencv-python
+pillow
+scikit-image
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+torch>=2.0
+torchvision>=0.15
+kagglehub
+
+# Опциональные зависимости (используются, если установлены)
+# torchsummary
+# torchcam
